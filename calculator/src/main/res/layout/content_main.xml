@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sunxiaohong.mycalculator.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/tv1"
+            android:textSize="50sp"/>
+    </RelativeLayout>
+
+
+    <LinearLayout style="@style/mystyle">
+
+
+        <Button
+            android:id="@+id/bt_delect"
+            android:text="c"
+            style="@style/mybutton" />
+
+        <Button
+            android:id="@+id/bt_cheng"
+            style="@style/mybutton"
+            android:text="*"/>
+
+        <Button
+            android:id="@+id/bt_chu"
+            style="@style/mybutton"
+            android:text="/"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/mystyle">
+
+
+        <Button
+            android:id="@+id/bt1"
+            style="@style/mybutton"
+            android:text="1"/>
+
+        <Button
+            android:id="@+id/bt2"
+            style="@style/mybutton"
+            android:text="2"/>
+
+        <Button
+            android:id="@+id/bt3"
+            style="@style/mybutton"
+            android:text="3"/>
+
+        <Button
+            android:id="@+id/bt_"
+            style="@style/mybutton"
+            android:text="-"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/mystyle">
+
+
+        <Button
+            android:id="@+id/bt4"
+            style="@style/mybutton"
+            android:text="4"/>
+
+        <Button
+            android:id="@+id/bt5"
+            style="@style/mybutton"
+            android:text="5"/>
+
+        <Button
+            android:id="@+id/bt6"
+            style="@style/mybutton"
+            android:text="6"/>
+
+        <Button
+            android:id="@+id/bt_jia"
+            style="@style/mybutton"
+            android:text="+"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/mystyle">
+
+
+        <Button
+            android:id="@+id/bt7"
+            style="@style/mybutton"
+            android:text="7"/>
+
+        <Button
+            android:id="@+id/bt8"
+            style="@style/mybutton"
+            android:text="8"/>
+
+        <Button
+            android:id="@+id/bt9"
+            style="@style/mybutton"
+            android:text="9"/>
+
+        <Button
+            android:id="@+id/bt_ponit"
+            style="@style/mybutton"
+            android:text="."/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt0"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="3"
+            android:text="0"/>
+
+        <Button
+            android:id="@+id/bt_deng"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="="/>
+
+        </LinearLayout>
+
+</LinearLayout>
